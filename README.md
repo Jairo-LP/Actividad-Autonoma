@@ -1,6 +1,5 @@
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Actividad-Autonoma
+Realizar los ejercicios propuestos por la docente en React Native
 
 ## Get started
 
@@ -15,4 +14,3 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npx expo start
    ```
-
