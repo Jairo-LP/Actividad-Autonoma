@@ -27,6 +27,11 @@ export default function AppTabs() {
           renderingMode="template"
         />
       </NativeTabs.Trigger>
+
+      <NativeTabs.Trigger name="actividad/index">
+        <NativeTabs.Trigger.Label>Actividad</NativeTabs.Trigger.Label>
+        <NativeTabs.Trigger.Icon sf="person.crop.circle" md="person" />
+      </NativeTabs.Trigger>
     </NativeTabs>
   );
 }

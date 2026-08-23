@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, Button, StyleSheet } from 'react-native';
-import CustomInput from './CustomInput'; // Importamos el componente reutilizable
+import CustomInput from '../componentes/CustomInput'; // Importamos el componente reutilizable
 
 export default function Screen2() {
   const [num1, setNum1] = useState('');

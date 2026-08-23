@@ -1,7 +1,10 @@
 import React from 'react';
 import { View, Text, Button, Image, StyleSheet } from 'react-native';
+import { useRouter } from 'expo-router';
 
-export default function Screen1({ navigation }) {
+export default function Screen1() {
+  const router = useRouter();
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Bienvenido</Text>
@@ -14,7 +17,7 @@ export default function Screen1({ navigation }) {
       
       <Button 
         title="Acceder" 
-        onPress={() => navigation.navigate('Screen2')} 
+        onPress={() => router.push('/actividad/division')} 
       />
     </View>
   );
